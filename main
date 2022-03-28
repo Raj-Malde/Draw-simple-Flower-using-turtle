@@ -1,0 +1,9 @@
+from turtle import *
+def fluer():
+  for i in range(300):
+    circle(180-i,90)
+    left(90)
+    circle(180-i,90)
+    left(18)
+fluer()
+mainloop()
